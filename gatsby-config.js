@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: `mattiyat`,
     author: `mattiyat`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Matt's Personal Blog`,
     siteHeadline: `Personal Blog`,
     externalLinks: [
       {
