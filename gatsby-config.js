@@ -5,27 +5,19 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `mattiyat`,
-    siteTitleAlt: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
-    siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `mattiyat`,
-    externalLinks: [
-      {
-        name: `Twitter`,
-        url: `https://twitter.com/mattiyat`
-      },
-      {
-        name: `Instagram`,
-        url: `https://www.instagram.com/mattiyat`
-      }
-    ],
+    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
     navigation: [
       {
         title: `Blog`,
         slug: `/blog`
+      },
+      {
+        title: `Projects`,
+        slug: `/projects`
+      },
+      {
+        title: `About`,
+        slug: `/about`
       }
     ]
   },
