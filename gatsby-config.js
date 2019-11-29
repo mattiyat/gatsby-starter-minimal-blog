@@ -5,7 +5,19 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `mattiyat`,
+    author: `mattiyat`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteHeadline: `Personal Blog`,
+    externalLinks: [
+      {
+        name: `Twitter`,
+        url: `https://twitter.com/mattiyat`
+      },
+      {
+        name: `Instagram`,
+        url: `https://www.instagram.com/mattiyat`
+      }
+    ],
     navigation: [
       {
         title: `Blog`,
@@ -24,7 +36,11 @@ module.exports = {
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-      options: {}
+      options: {
+        basePath: `/`,
+        contentPath: `content/posts`,
+        mdx: true
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
